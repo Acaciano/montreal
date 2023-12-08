@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Montreal</Authors>
+    <Product>Montreal - Core Common</Product>
+    <Description>Montreal - Core Common</Description>
+    <PackageIcon></PackageIcon>
+    <PackageIconUrl />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="EPPlus" Version="5.4.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="5.0.9" />
+    <PackageReference Include="MongoDB.Bson" Version="2.13.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Authors>Montreal</Authors>
+    <Product>Montreal - Core Bus</Product>
+    <Description>Montreal - Core Bus</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon></PackageIcon>
+    <PackageIconUrl />
+    <Version>1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Montreal.Core.Crosscutting.Domain\Montreal.Core.Crosscutting.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
